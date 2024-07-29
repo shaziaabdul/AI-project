@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh;
+    background:whitesmoke;
+    font-family: 'Arial';
+}
+.container{
+    margin:auto;
+    width: 600px;
+    max-width:100%;
+}
+.container form{
+    height: 80%;
+    width:80%;
+    background-color: goldenrod;
+    padding:20px;
+    
+}
+.container form h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-style:bold;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.input-box span{
+    font-size: 20px;
+    color: brown;
+    
+}
+.input-box{
+    padding: 20px;
+    margin:20px;
+    border-radius: 20px;
+    
+}
+.links a{
+    text-decoration: none;
+    padding:40px;
+}
+.button{
+    background:none;
+padding-top: 20px;
+padding-left: 35%;
+    
+}
+.btn{
+    background-color: green;
+    font-size: 20px;
+    padding: 20px;
+    padding:20px;
+    text-style:bold;
+    text-transform: uppercase;
+    align-items: center;
+    border:3px solid black;
+}

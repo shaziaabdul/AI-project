@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    border-sizing:border-box;
+}
+body{
+    min-height: 100vh;
+    background-color:darkcyan;
+    font-family:arial;
+
+}
+.container{
+    width:600px;
+    max-width:100% ;
+    margin:auto;
+}
+.container form{
+    height:70%;
+    background-color:azure;
+    padding:20px;
+    background-image: url(img/istockphoto-1312418673-612x612.img);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.container form h1{
+text-align:center;
+text-transform: uppercase;
+text-style:bold;
+border-box:contain;
+font-style:oblique;
+color:indigo;
+
+}
+.input-box{
+    margin:20px;
+    padding:30px;
+    border-radius: 3px;
+}
+.input-box span{
+    font-size: 20px;
+    font-style: italic;
+    color:black;
+}
+.links a{
+    text-decoration: none;
+    padding:60px;
+    font-size: 20px;
+}
+.button{
+    background: none;
+    padding-left: 35%;
+    padding-top: 40px;
+
+}
+.btn{
+    background-color:indigo;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid white;
+
+}
+.btn a{
+
+color:whitesmoke;
+text-decoration: none;
+font-style: italic;
+
+}

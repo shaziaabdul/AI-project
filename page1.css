@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.container{
+    background-image: url(img/Home-Banner-V2.img);
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: hotpink;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav li{
+    display:inline;
+    list-style:none;
+    text-transform: uppercase;
+    text-size:bold;
+    font-size:20px;
+    padding:40px;
+    font-style: oblique;
+
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+}
+.logo{
+    height:60px;
+    width:100px;
+    padding-right: 92%;
+}
+.heading{
+    text-transform: uppercase;
+    text-size:bold;
+    text-align: center;
+    font-size:40px;
+    font-style:italic;
+    border-box:contain;
+    color: indigo;
+    padding-top: 20px;
+}
+.para{
+    font-size: 35px;
+    font-style: italic;
+    border-box:contain;
+    padding-top: 100px;
+    color:black;
+}
+.heading1{
+    text-transform: uppercase;
+    text-size:bold;
+    font-size: 30px;
+    font-style: oblique;
+    padding-left: 10px;
+    color:darkslategray;
+    padding-top: 20px;
+    border-box:contain;
+}
+.content{
+    font-size: 30px;
+    font-style: italic;
+    color: darkblue;
+    border-box:contain;
+    padding-left: 150px;
+}
+.button{
+    background: none;
+    padding-left: 20%;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.btn a{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: darkcyan;
+    border: 3px solid black;
+    font-style: oblique;
+    color: white;
+}
+.btn a:hover{
+    color: blue;
+}
